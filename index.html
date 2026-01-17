@@ -1,13 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Informática - Aprenda Brincando</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
 <body>
+
     <div class="container">
+        <header>
+            <h1>Mestre da Informática</h1>
+            <p>Aprenda conceitos reais com desafios divertidos!</p>
+        </header>
+
         <div id="selecao-categoria">
-            <h1>Desafio de Informática</h1>
-            <p>Escolha um tema para começar a aprender e testar seus conhecimentos:</p>
-            
-            <div class="menu-botoes">
-                <button class="botao-principal" onclick="iniciarModulo('hardware')">💻 Módulo Hardware</button>
-                <button class="botao-principal" onclick="iniciarModulo('atalhos')">⌨️ Módulo Atalhos</button>
-                <button class="botao-principal" onclick="iniciarModulo('bits')">🔢 Módulo Bits e Lógica</button>
+            <div class="card-inicio">
+                <h3>Escolha um tema para começar:</h3>
+                <div class="menu-botoes">
+                    <button class="botao-principal hardware" onclick="iniciarModulo('hardware')">
+                        <span class="icone">💻</span> Hardware e Peças
+                    </button>
+                    <button class="botao-principal atalhos" onclick="iniciarModulo('atalhos')">
+                        <span class="icone">⌨️</span> Atalhos de Teclado
+                    </button>
+                    <button class="botao-principal bits" onclick="iniciarModulo('bits')">
+                        <span class="icone">🔢</span> Bits e Lógica
+                    </button>
+                </div>
             </div>
         </div>
 
@@ -15,5 +36,10 @@
             </div>
     </div>
 
+    <footer>
+        <p>&copy; 2024 - Meu Projeto de Informática</p>
+    </footer>
+
     <script src="app.js"></script>
 </body>
+</html>
