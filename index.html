@@ -3,42 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz de Informática - Aprenda Brincando</title>
+    <title>Mestre da Informática</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <div class="container">
-        <header>
-            <h1>Mestre da Informática</h1>
-            <p>Aprenda conceitos reais com desafios divertidos!</p>
-        </header>
+    <header>
+        <h1>Mestre da Informática</h1>
+        <p>Aprenda conceitos reais com desafios divertidos!</p>
+    </header>
 
-        <div id="selecao-categoria">
-            <div class="card-inicio">
-                <h3>Escolha um tema para começar:</h3>
-                <div class="menu-botoes">
-                    <button class="botao-principal hardware" onclick="iniciarModulo('hardware')">
-                        <span class="icone">💻</span> Hardware e Peças
-                    </button>
-                    <button class="botao-principal atalhos" onclick="iniciarModulo('atalhos')">
-                        <span class="icone">⌨️</span> Atalhos de Teclado
-                    </button>
-                    <button class="botao-principal bits" onclick="iniciarModulo('bits')">
-                        <span class="icone">🔢</span> Bits e Lógica
-                    </button>
-                </div>
+    <main>
+        <div id="tela-cadastro" class="card">
+            <h2>Bem-vindo ao Desafio!</h2>
+            <p>Preencha seus dados para começar:</p>
+            <div class="formulario">
+                <input type="text" id="nome-usuario" placeholder="Seu nome completo">
+                <input type="text" id="escola-usuario" placeholder="Nome da sua escola">
+                <input type="number" id="idade-usuario" placeholder="Sua idade">
+            </div>
+            <button class="botao-principal" onclick="irParaModulos()">Começar Diversão!</button>
+        </div>
+
+        <div id="selecao-categoria" class="card hidden">
+            <h2>Escolha um módulo:</h2>
+            <div class="menu-modulos">
+                <button class="botao-modulo" onclick="iniciarModulo('hardware')">💻 Hardware</button>
+                <button class="botao-modulo" onclick="iniciarModulo('atalhos')">⌨️ Atalhos</button>
+                <button class="botao-modulo" onclick="iniciarModulo('bits')">🔢 Bits e Lógica</button>
             </div>
         </div>
 
-        <div id="quiz-container" class="hidden">
-            </div>
-    </div>
+        <div id="quiz-container" class="card hidden"></div>
+    </main>
 
-    <footer>
-        <p>&copy; 2024 - Meu Projeto de Informática</p>
-    </footer>
+    <footer style="margin-top: auto; padding: 20px; background: #161b22; border-top: 2px solid #58a6ff; text-align: center; color: #8b949e;">
+    Desenvolvido por: <strong style="color: #58a6ff;">Fernando Fernandes Leite de Oliveira</strong> |
+    Instituição: <strong style="color: #58a6ff;">Uninter</strong> |
+    Ano: <strong style="color: #58a6ff;">2026</strong>
+</footer>
 
     <script src="app.js"></script>
 </body>
