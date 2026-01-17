@@ -44,113 +44,201 @@ const CONTEUDO_GERAL = {
         { titulo: "Print Screen", imagem: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftt-hardware.com%2Fwp-content%2Fuploads%2F2023%2F06%2Ftouche-decran-dimpression-prtsc-768x461.png&f=1&nofb=1&ipt=bf67d24f2fa20fa94f50f1314e0fbc0b4e2ffba2650699460ee6da6d6935b154", texto_aula: "A tecla **PrtSc** (Ou Win+Shift+S) tira uma foto de tudo o que está no seu monitor.", pergunta: "Como capturar uma imagem de tudo o que aparece na tela agora?", alternativas: ["Usando celular", "Apertando PrtSc", "Ctrl + P", "F5"], resposta: "Apertando PrtSc", link: "https://pt.wikipedia.org/wiki/Print_screen" }
     ],
     "bits": [
-        { titulo: "O que é um Bit?", imagem: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.gcflearnfree.org%2Fcontent%2F5be310a59fcfff1378ff8923_11_07_2018%2Fbinary_bit.jpg&f=1&nofb=1&ipt=382fbc0bc5c0c28c3cb39c60411b8ecaeaf2abfeeef4009c392e5a36871aa21b", texto_aula: "O **Bit** é a menor unidade: 1 (aceso/verdadeiro) ou 0 (apagado/falso).", pergunta: "De acordo com o texto, o que um Bit pode representar?", alternativas: ["Letras A a Z", "Ligado (1) ou Desligado (0)", "Cores", "Nomes"], resposta: "Ligado (1) ou Desligado (0)", link: "https://pt.wikipedia.org/wiki/Bit" },
-        { titulo: "O que é um Byte?", imagem: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F99%2Fde%2Fda%2F99dedac2407b07f8bba0a0fa1c4044b1.jpg&f=1&nofb=1&ipt=d6332f882928be19c0ba906c1cdc5be38b9ef10221310cdb6b46a46eaf8ed6dc", texto_aula: "O computador junta **8 Bits** para formar um **Byte**, que representa uma letra.", pergunta: "Quantos Bits formam um Byte completo?", alternativas: ["2", "8", "10", "100"], resposta: "8", link: "https://pt.wikipedia.org/wiki/Byte" },
-        { titulo: "Código Binário", imagem: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.slashgear.com%2Fimg%2Fgallery%2Fbinary-code-explained-what-it-is-and-why-computers-depend-on-it%2Fl-intro-1696987023.jpg&f=1&nofb=1&ipt=3c69462aea2494ef175de4bc7cba389b036c383cc8c6a031ab5ef742482be5f5", texto_aula: "O computador só usa 0 e 1. Chamamos isso de língua secreta dos computadores.", pergunta: "Por que o sistema é chamado de 'Binário'?", alternativas: ["Porque usa 10 números", "Porque usa só dois símbolos (0 e 1)", "Porque é rápido", "Porque é difícil"], resposta: "Porque usa só dois símbolos (0 e 1)", link: "https://pt.wikipedia.org/wiki/Sistema_binário" },
-        { titulo: "Sim ou Não", imagem: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F018%2F842%2F768%2Flarge_2x%2Frealistic-right-and-wrong-yes-or-no-approved-or-declined-3d-button-acceptance-rejection-and-attention-symbols-3d-render-illustration-free-png.png&f=1&nofb=1&ipt=d219201c66f2b335dcc88338acfdcce24b745d593f3ae6aaa0ebc362f50dbdb2", texto_aula: "Na lógica, o Bit 1 é **Verdadeiro** e o Bit 0 é **Falso**. Tudo é Sim ou Não!", pergunta: "Se algo na lógica do computador não é 'Verdadeiro', o que ele é?", alternativas: ["Quase sim", "Falso", "Talvez", "Erro"], resposta: "Falso", link: "https://pt.wikipedia.org/wiki/Lógica_booleana" },
-        { titulo: "Algoritmos", imagem: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fasimov.academy%2Fwp-content%2Fuploads%2F2023%2F12%2Falgoritmo-de-compras.png&f=1&nofb=1&ipt=917393ecda4685dbb5b80bb0a5ec077e5be0fa3b46d07a5d0d99ab476f92b392", texto_aula: "Um **Algoritmo** é uma lista de passos (receita) para o computador seguir.", pergunta: "Se um programador cria um Algoritmo, ele está criando o quê?", alternativas: ["Um desenho", "Uma lista de instruções passo a passo", "Um hardware novo", "Uma senha"], resposta: "Uma lista de instruções passo a passo", link: "https://pt.wikipedia.org/wiki/Algoritmo" },
-        { titulo: "Pixels", imagem: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthumbs.dreamstime.com%2Fz%2Freal-computer-pixels-zoom-computer-pixels-pixel-display-red-blue-green-black-zoom-128939415.jpg&f=1&nofb=1&ipt=cb0603f63e192044910291f1d896b67802441943265043d36dc51e8b99ab2253", texto_aula: "Imagens são feitas de milhares de pontinhos coloridos chamados **Pixels**.", pergunta: "Do que é formada a imagem que vemos no monitor?", alternativas: ["De tinta", "De milhares de pontos (Pixels)", "De luz solar", "De vidro"], resposta: "De milhares de pontos (Pixels)", link: "https://pt.wikipedia.org/wiki/Pixel" },
-        { titulo: "O Processamento", imagem: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2F736x%2Fec%2F17%2Fe8%2Fec17e8da8a3cf65d43210be9c38b23b4.jpg&f=1&nofb=1&ipt=059b84d38d324f49de0dd24e4bc889cccbcc063bdc2cefffd3e798314be2cc1d", texto_aula: "O caminho é: Entrada (ordem) -> Processamento (pensar) -> Saída (resultado).", pergunta: "O que é o 'Processamento' na prática?", alternativas: ["Digitar no teclado", "O PC entender e calcular a ordem", "Ver a imagem na tela", "Desligar"], resposta: "O PC entender e calcular a ordem", link: "https://pt.wikipedia.org/wiki/Processamento_de_dados" },
-        { titulo: "Memória Volátil", imagem: "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F4.bp.blogspot.com%2F-q5zc-6suMzQ%2FVYXgb2qz4xI%2FAAAAAAAAAB8%2FPZCh9LpG1TU%2Fs1600%2FVOLATIL.jpg&f=1&nofb=1&ipt=83c16e07ad93a276ba2269dd533d057d2e2d859de8fddd91d66a0a2dadeea623", texto_aula: "A RAM esquece tudo sem energia. Por isso ela é chamada de **Volátil**.", pergunta: "O que ocorre com a RAM se o PC for desligado da tomada?", alternativas: ["Guarda tudo", "As informações somem", "O PC explode", "Fica mais rápida"], resposta: "As informações somem", link: "https://pt.wikipedia.org/wiki/Memória_volátil" },
-        { titulo: "Bugs", imagem: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.shakebugs.com%2Fwp-content%2Fuploads%2F2022%2F11%2FHow-to-efficiently-prevent-software-bugs-in-your-product.png&f=1&nofb=1&ipt=59843d68f865ac483b416f64d41be84df22dd3c793c443ec08644b3bcc9b8757", texto_aula: "Um **Bug** é um erro na lógica do programa que faz ele funcionar mal.", pergunta: "O que significa encontrar um 'Bug' no sistema?", alternativas: ["Um inseto de verdade", "Um erro ou falha no programa", "Um novo recurso", "Vírus"], resposta: "Um erro ou falha no programa", link: "https://pt.wikipedia.org/wiki/Erro_de_software" },
-        { titulo: "IA", imagem: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.businessempresarial.com.pe%2Fwp-content%2Fuploads%2F2023%2F09%2FFoto-IA-scaled.jpg&f=1&nofb=1&ipt=91a10e398ce7d065e75c39026a20f4e1bbd50ee5f601581ac105ecdb13965e8a", texto_aula: "A Inteligência Artificial imita o cérebro e aprende com exemplos.", pergunta: "Principal diferença de uma IA para um programa comum:", alternativas: ["Ela é mais cara", "Capacidade de aprender com exemplos", "Ela usa teclado", "Não precisa de luz"], resposta: "Capacidade de aprender com exemplos", link: "https://pt.wikipedia.org/wiki/Inteligência_artificial" },
-        { titulo: "A Internet", imagem: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Felucabista.com%2Fwp-content%2Fuploads%2F2017%2F04%2Fglobal-internet-thumbnail.jpg&f=1&nofb=1&ipt=841e774d66ea6896c92486e5dd09fe1465f95df205186b299382642a8b23246f", texto_aula: "Internet é uma rede mundial de computadores trocando Bits.", pergunta: "O que acontece ao abrir um site?", alternativas: ["O PC cria o site na hora", "Troca dados com outro PC via rede", "O monitor acende", "Nada"], resposta: "Troca dados com outro PC via rede", link: "https://pt.wikipedia.org/wiki/Internet" },
-        { titulo: "Wi-Fi", imagem: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fphoneworks.net.au%2Fwp-content%2Fuploads%2F2021%2F01%2FWifi.jpg&f=1&nofb=1&ipt=1ce31c7e259dca0f39e37f62c49ae40ddd404460b22b0b4f265b00eb7ee04a5b", texto_aula: "O Wi-Fi usa ondas de rádio invisíveis para levar os Bits pelo ar.", pergunta: "Como a informação chega ao celular sem fios?", alternativas: ["Por mágica", "Ondas de rádio invisíveis", "Pela luz da lâmpada", "Pelo som"], resposta: "Ondas de rádio invisíveis", link: "https://pt.wikipedia.org/wiki/Wi-Fi" },
-        { titulo: "Criptografia", imagem: "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fvalidcertificadora.com.br%2Fcdn%2Fshop%2Farticles%2Fcriptografia.jpg%3Fv%3D1717692577&f=1&nofb=1&ipt=1e83e166fae9faeb850e25a894d092efd9876dbbc83c271c5adbd4acddea8c0d", texto_aula: "A **Criptografia** embaralha os dados para protegê-los de curiosos.", pergunta: "Para que serve a Criptografia?", alternativas: ["Deixar o PC bonito", "Proteger informações com 'cadeados'", "Aumentar o HD", "Limpar o mouse"], resposta: "Proteger informações com 'cadeados'", link: "https://pt.wikipedia.org/wiki/Criptografia" },
-        { titulo: "Código-Fonte", imagem: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstorage.googleapis.com%2Fstatic.meupc.net%2Fwp%2F1%2F2021%2F04%2Fpagina-codigo-fonte.jpg&f=1&nofb=1&ipt=f68c7f265cea60d8a45a920297a6dc3e8fca42e84fbbd5bf277695e143070556", texto_aula: "É o texto que o humano escreve para criar o programa.", pergunta: "O que o 'Compilador' faz com o código do programador?", alternativas: ["Apaga tudo", "Traduz para a língua dos Bits", "Imprime", "Envia e-mail"], resposta: "Traduz para a língua dos Bits", link: "https://pt.wikipedia.org/wiki/Código-fonte" },
-        { titulo: "Sistema Operacional", imagem: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fandreprzybysz.files.wordpress.com%2F2023%2F04%2Fimg_2992.jpg%3Fw%3D1024&f=1&nofb=1&ipt=632c156bf815be3fec4dcd47f06b1ef7ca81288c296e7de813631673a5ace93a", texto_aula: "O Windows ou Android é o 'chefe' que administra tudo.", pergunta: "Função principal do Sistema Operacional:", alternativas: ["Digitar textos", "Administrar e controlar o computador", "Jogar games", "Acessar Wi-Fi"], resposta: "Administrar e controlar o computador", link: "https://pt.wikipedia.org/wiki/Sistema_operativo" },
-        { titulo: "Nuvem", imagem: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.conteudoinboundmarketing.com.br%2Fwp-content%2Fuploads%2F2019%2F02%2Fnuvem-armazenamento.jpg&f=1&nofb=1&ipt=aba9812281157b67bf22f5a2a4cf7c298df25c1a2d6dba92316b30eb348115c5", texto_aula: "Nuvem é guardar arquivos em servidores potentes via internet.", pergunta: "Onde fica guardada uma foto na 'Nuvem'?", alternativas: ["No céu", "Em um servidor via internet", "Dentro do monitor", "No teclado"], resposta: "Em um servidor via internet", link: "https://pt.wikipedia.org/wiki/Computação_em_nuvem" },
-        { titulo: "Compactação ZIP", imagem: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.sweetwater.com%2Fsweetcare%2Fmedia%2F2019%2F08%2FHow-to-Zip-and-Unzip-Files-Hero-Image.png&f=1&nofb=1&ipt=d1049431edcd0e937425144cb3ff142bf45e0b7e107f9946ff74ebf9122b1559", texto_aula: "Compactar é 'espremer' Bits para o arquivo ocupar menos espaço.", pergunta: "Para que serve o formato ZIP?", alternativas: ["Para proteger vírus", "Para diminuir o tamanho do arquivo", "Para mudar a foto", "Para imprimir"], resposta: "Para diminuir o tamanho do arquivo", link: "https://pt.wikipedia.org/wiki/Compactação_de_dados" },
-        { titulo: "Vírus", imagem: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.goyasoluciones.com%2Fwp-content%2Fuploads%2F185462123_dc5f4693-2004-451f-9b0e-3e4c30ad1e50-scaled.jpg&f=1&nofb=1&ipt=22803a9c623598e0f7dd982b9d30f23a771126a2ac214fb6811b46131d1589cd", texto_aula: "Vírus são programas 'malvados' que tentam estragar o PC.", pergunta: "O que o Antivírus faz?", alternativas: ["Cria vírus", "Vigia e remove programas maldosos", "Acelera o download", "Muda o papel de parede"], resposta: "Vigia e remove programas maldosos", link: "https://pt.wikipedia.org/wiki/Malware" },
-        { titulo: "Roteador", imagem: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.tp-link.com%2Fupload%2Fimage-line%2FSIDE_large_20230331034509n.jpg&f=1&nofb=1&ipt=6c1fe3ae23c32ce91dc50aa014be0dfd774bfd9f3b6ff9fc008732ab8c6eb32b", texto_aula: "O Roteador organiza o trânsito da internet na sua casa.", pergunta: "Tarefa principal do Roteador:", alternativas: ["Criar sites", "Distribuir o sinal de internet", "Carregar o celular", "Limpar os Bits"], resposta: "Distribuir o sinal de internet", link: "https://pt.wikipedia.org/wiki/Roteador" },
-        { titulo: "Realidade Aumentada", imagem: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fblog.brq.com%2Fwp-content%2Fuploads%2Fsites%2F3%2F2022%2F03%2Frealidade-aumentada.png&f=1&nofb=1&ipt=a56007697056a0726ccc7390eb33bbbf4fa566ebb9708b9baf2da34437e72c14", texto_aula: "Mistura desenhos digitais com o que vemos de verdade na câmera.", pergunta: "O que a Realidade Aumentada faz?", alternativas: ["Apaga o mundo real", "Coloca desenhos digitais sobre o mundo real", "Tira fotos", "Desliga o PC"], resposta: "Coloca desenhos digitais sobre o mundo real", link: "https://pt.wikipedia.org/wiki/Realidade_aumentada" }
+        { titulo: "O que é um Bit?", imagem: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.gcflearnfree.org%2Fcontent%2F5be310a59fcfff1378ff8923_11_07_2018%2Fbinary_bit.jpg&f=1&nofb=1&ipt=382fbc0bc5c0c28c3cb39c60411b8ecaeaf2abfeeef4009c392e5a36871aa21b", texto_aula: "O **Bit** é a menor unidade: 1 (aceso/verdadeiro) ou 0 (apagado/falso).", pergunta: "De acordo com o texto, o que um Bit pode representar?", alternativas: ["Letras A a Z", "Nomes", "Cores", "Ligado (1) ou Desligado (0)"], resposta: "Ligado (1) ou Desligado (0)", link: "https://pt.wikipedia.org/wiki/Bit" },
+        { titulo: "O que é um Byte?", imagem: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F99%2Fde%2Fda%2F99dedac2407b07f8bba0a0fa1c4044b1.jpg&f=1&nofb=1&ipt=d6332f882928be19c0ba906c1cdc5be38b9ef10221310cdb6b46a46eaf8ed6dc", texto_aula: "O computador junta **8 Bits** para formar um **Byte**, que representa uma letra.", pergunta: "Quantos Bits formam um Byte completo?", alternativas: ["8", "2", "10", "100"], resposta: "8", link: "https://pt.wikipedia.org/wiki/Byte" },
+        { titulo: "Código Binário", imagem: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.slashgear.com%2Fimg%2Fgallery%2Fbinary-code-explained-what-it-is-and-why-computers-depend-on-it%2Fl-intro-1696987023.jpg&f=1&nofb=1&ipt=3c69462aea2494ef175de4bc7cba389b036c383cc8c6a031ab5ef742482be5f5", texto_aula: "O computador só usa 0 e 1. Chamamos isso de língua secreta dos computadores.", pergunta: "Por que o sistema é chamado de 'Binário'?", alternativas: ["Porque é rápido", "Porque usa 10 números", "Porque usa só dois símbolos (0 e 1)", "Porque é difícil"], resposta: "Porque usa só dois símbolos (0 e 1)", link: "https://pt.wikipedia.org/wiki/Sistema_binário" },
+        { titulo: "Sim ou Não", imagem: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F018%2F842%2F768%2Flarge_2x%2Frealistic-right-and-wrong-yes-or-no-approved-or-declined-3d-button-acceptance-rejection-and-attention-symbols-3d-render-illustration-free-png.png&f=1&nofb=1&ipt=d219201c66f2b335dcc88338acfdcce24b745d593f3ae6aaa0ebc362f50dbdb2", texto_aula: "Na lógica, o Bit 1 é **Verdadeiro** e o Bit 0 é **Falso**. Tudo é Sim ou Não!", pergunta: "Se algo na lógica do computador não é 'Verdadeiro', o que ele é?", alternativas: ["Talvez", "Falso", "Quase sim", "Erro"], resposta: "Falso", link: "https://pt.wikipedia.org/wiki/Lógica_booleana" },
+        { titulo: "Código Fonte e Compilador", imagem: "https://asimov.academy/wp-content/uploads/2023/12/algoritmo-de-compras.png", texto_aula: "O **Código Fonte** é o texto que escrevemos. O **Compilador** é o tradutor que transforma esse texto para a língua que o computador entende.", pergunta: "Qual é a função do Compilador de acordo com o texto?", alternativas: ["Imprimir o código", "Apagar erros", "Mudar a fonte", "Traduzir o código para o computador"], resposta: "Traduzir o código para o computador", link: "https://pt.wikipedia.org/wiki/Compilador" },
+        { titulo: "Algoritmos", imagem: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fasimov.academy%2Fwp-content%2Fuploads%2F2023%2F12%2Falgoritmo-de-compras.png&f=1&nofb=1&ipt=917393ecda4685dbb5b80bb0a5ec077e5be0fa3b46d07a5d0d99ab476f92b392", texto_aula: "Um **Algoritmo** é uma lista de passos (receita) para o computador seguir.", pergunta: "Se um programador cria um Algoritmo, ele está criando o quê?", alternativas: ["Uma lista de instruções passo a passo", "Um hardware novo", "Um desenho", "Uma senha"], resposta: "Uma lista de instruções passo a passo", link: "https://pt.wikipedia.org/wiki/Algoritmo" },
+        { titulo: "Pixels", imagem: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthumbs.dreamstime.com%2Fz%2Freal-computer-pixels-zoom-computer-pixels-pixel-display-red-blue-green-black-zoom-128939415.jpg&f=1&nofb=1&ipt=cb0603f63e192044910291f1d896b67802441943265043d36dc51e8b99ab2253", texto_aula: "Imagens são feitas de milhares de pontinhos coloridos chamados **Pixels**.", pergunta: "Do que é formada a imagem que vemos no monitor?", alternativas: ["De tinta", "De luz solar", "De milhares de pontos (Pixels)", "De vidro"], resposta: "De milhares de pontos (Pixels)", link: "https://pt.wikipedia.org/wiki/Pixel" },
+        { titulo: "O Processamento", imagem: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2F736x%2Fec%2F17%2Fe8%2Fec17e8da8a3cf65d43210be9c38b23b4.jpg&f=1&nofb=1&ipt=059b84d38d324f49de0dd24e4bc889cccbcc063bdc2cefffd3e798314be2cc1d", texto_aula: "O caminho é: Entrada (ordem) -> Processamento (pensar) -> Saída (resultado).", pergunta: "O que é o 'Processamento' na prática?", alternativas: ["Digitar no teclado", "Desligar", "Ver a imagem na tela", "O PC entender e calcular a ordem"], resposta: "O PC entender e calcular a ordem", link: "https://pt.wikipedia.org/wiki/Processamento_de_dados" },
+        { titulo: "Memória Volátil", imagem: "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F4.bp.blogspot.com%2F-q5zc-6suMzQ%2FVYXgb2qz4xI%2FAAAAAAAAAB8%2FPZCh9LpG1TU%2Fs1600%2FVOLATIL.jpg&f=1&nofb=1&ipt=83c16e07ad93a276ba2269dd533d057d2e2d859de8fddd91d66a0a2dadeea623", texto_aula: "A RAM esquece tudo sem energia. Por isso ela é chamada de **Volátil**.", pergunta: "O que ocorre com a RAM se o PC for desligado da tomada?", alternativas: ["As informações somem", "Guarda tudo", "O PC explode", "Fica mais rápida"], resposta: "As informações somem", link: "https://pt.wikipedia.org/wiki/Memória_volátil" },
+        { titulo: "Bugs", imagem: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.shakebugs.com%2Fwp-content%2Fuploads%2F2022%2F11%2FHow-to-efficiently-prevent-software-bugs-in-your-product.png&f=1&nofb=1&ipt=59843d68f865ac483b416f64d41be84df22dd3c793c443ec08644b3bcc9b8757", texto_aula: "Um **Bug** é um erro na lógica do programa que faz ele funcionar mal.", pergunta: "O que significa encontrar um 'Bug' no sistema?", alternativas: ["Um inseto de verdade", "Vírus", "Um novo recurso", "Um erro ou falha no programa"], resposta: "Um erro ou falha no programa", link: "https://pt.wikipedia.org/wiki/Erro_de_software" },
+        { titulo: "IA", imagem: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.businessempresarial.com.pe%2Fwp-content%2Fuploads%2F2023%2F09%2FFoto-IA-scaled.jpg&f=1&nofb=1&ipt=91a10e398ce7d065e75c39026a20f4e1bbd50ee5f601581ac105ecdb13965e8a", texto_aula: "A Inteligência Artificial imita o cérebro e aprende com exemplos.", pergunta: "Principal diferença de uma IA para um programa comum:", alternativas: ["Capacidade de aprender com exemplos", "Ela é mais cara", "Ela usa teclado", "Não precisa de luz"], resposta: "Capacidade de aprender com exemplos", link: "https://pt.wikipedia.org/wiki/Inteligência_artificial" },
+        { titulo: "A Internet", imagem: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Felucabista.com%2Fwp-content%2Fuploads%2F2017%2F04%2Fglobal-internet-thumbnail.jpg&f=1&nofb=1&ipt=841e774d66ea6896c92486e5dd09fe1465f95df205186b299382642a8b23246f", texto_aula: "Internet é uma rede mundial de computadores trocando Bits.", pergunta: "O que acontece ao abrir um site?", alternativas: ["O PC cria o site na hora", "O monitor acende", "Troca dados com outro PC via rede", "Nada"], resposta: "Troca dados com outro PC via rede", link: "https://pt.wikipedia.org/wiki/Internet" },
+        { titulo: "Wi-Fi", imagem: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fphoneworks.net.au%2Fwp-content%2Fuploads%2F2021%2F01%2FWifi.jpg&f=1&nofb=1&ipt=1ce31c7e259dca0f39e37f62c49ae40ddd404460b22b0b4f265b00eb7ee04a5b", texto_aula: "O Wi-Fi usa ondas de rádio invisíveis para levar os Bits pelo ar.", pergunta: "Como a informação chega ao celular sem fios?", alternativas: ["Por mágica", "Pela luz da lâmpada", "Pelo som", "Ondas de rádio invisíveis"], resposta: "Ondas de rádio invisíveis", link: "https://pt.wikipedia.org/wiki/Wi-Fi" }
     ]
 };
 
-// --- LÓGICA DO SISTEMA ---
-let aluno = { nome: "", escola: "", idade: "", acertos: 0 };
-let moduloAtual = "";
-let indicePergunta = 0;
+// ==========================================
+// LÓGICA DO QUIZ ATUALIZADA COM REVISÃO
+// ==========================================
 
-function salvarEIniciar() {
-    aluno.nome = document.getElementById('nome-aluno').value || "Anônimo";
-    aluno.escola = document.getElementById('escola-aluno').value || "Não informada";
-    aluno.idade = document.getElementById('idade-aluno').value || "?";
-    document.getElementById('tela-identificacao').style.display = 'none';
-    document.getElementById('menu-modulos').style.display = 'block';
+let estado = {
+    categoriaAtual: null,
+    indiceAtual: 0,
+    pontuacao: 0,
+    mostrandoAula: true,
+    historico: [] // <--- Guardará as respostas para a revisão
+};
+
+function iniciarModulo(categoria) {
+    estado.categoriaAtual = categoria;
+    estado.indiceAtual = 0;
+    estado.pontuacao = 0;
+    estado.historico = [];
+    estado.mostrandoAula = true;
+
+    document.getElementById('selecao-categoria').classList.add('hidden');
+    document.getElementById('quiz-container').classList.remove('hidden');
+    renderizarEtapa();
 }
 
-function iniciarModulo(modulo) {
-    moduloAtual = modulo;
-    indicePergunta = 0;
-    aluno.acertos = 0;
-    document.getElementById('menu-modulos').style.display = 'none';
-    mostrarAula();
-}
+function renderizarEtapa() {
+    const perguntaData = CONTEUDO_GERAL[estado.categoriaAtual][estado.indiceAtual];
+    const container = document.getElementById('quiz-container');
 
-function mostrarAula() {
-    const dados = CONTEUDO_GERAL[moduloAtual][indicePergunta];
-    document.getElementById('tela-aula').style.display = 'block';
-    document.getElementById('conteudo-quiz').style.display = 'none';
-    document.getElementById('tela-final').style.display = 'none';
-
-    // Lógica da Imagem: Se não houver link, oculta o container
-    const imgContainer = document.getElementById('imagem-aula-container');
-    if(dados.imagem && dados.imagem.trim() !== "") {
-        imgContainer.innerHTML = `<img src="${dados.imagem}" alt="${dados.titulo}">`;
-        imgContainer.style.display = "block";
+    if (estado.mostrandoAula) {
+        container.innerHTML = `
+            <h2>${perguntaData.titulo}</h2>
+            <img src="${perguntaData.imagem}" alt="Imagem da aula" class="img-aula">
+            <p class="texto-aula">${perguntaData.texto_aula}</p>
+            <button onclick="estado.mostrandoAula = false; renderizarEtapa();">Entendi! Ir para o desafio</button>
+        `;
     } else {
-        imgContainer.style.display = "none";
+        container.innerHTML = `
+            <h3>DESAFIO: ${perguntaData.pergunta}</h3>
+            <div class="alternativas">
+                ${perguntaData.alternativas.map(alt => `
+                    <button class="btn-alt" onclick="verificarResposta('${alt}')">${alt}</button>
+                `).join('')}
+            </div>
+        `;
+    }
+}
+
+function verificarResposta(escolha) {
+    const perguntaData = CONTEUDO_GERAL[estado.categoriaAtual][estado.indiceAtual];
+    const acertou = (escolha === perguntaData.resposta);
+
+    // Salva no histórico para mostrar depois
+    estado.historico.push({
+        pergunta: perguntaData.pergunta,
+        escolhaUsuario: escolha,
+        respostaCorreta: perguntaData.resposta,
+        correto: acertou,
+        link: perguntaData.link
+    });
+
+    if (acertou) {
+        alert("Correto! Muito bem.");
+        estado.pontuacao++;
+    } else {
+        alert("Ops, não foi dessa vez!");
     }
 
-    document.getElementById('conteudo-aula').innerHTML = `
-        <h2 style="color:#007bff">${dados.titulo}</h2>
-        <p style="font-size:1.2rem; line-height:1.6">${dados.texto_aula}</p>
-        <p style="margin-top:15px"><a href="${dados.link}" target="_blank" style="color: #007bff; font-weight: bold; text-decoration: none;">📖 Saiba mais na Wikipédia →</a></p>
+    estado.indiceAtual++;
+    estado.mostrandoAula = true;
+
+    if (estado.indiceAtual < CONTEUDO_GERAL[estado.categoriaAtual].length) {
+        renderizarEtapa();
+    } else {
+        finalizarModulo();
+    }
+}
+
+function finalizarModulo() {
+    const total = CONTEUDO_GERAL[estado.categoriaAtual].length;
+    const container = document.getElementById('quiz-container');
+
+    container.innerHTML = `
+        <h2>Módulo Concluído!</h2>
+        <p>Você acertou ${estado.pontuacao} de ${total} perguntas.</p>
+        <button onclick="mostrarRevisao()">Revisar minhas respostas</button>
+        <button onclick="location.reload()" style="background-color: #666;">Voltar ao Início</button>
     `;
 }
 
-function mostrarQuiz() {
-    document.getElementById('tela-aula').style.display = 'none';
-    document.getElementById('conteudo-quiz').style.display = 'block';
-    const dados = CONTEUDO_GERAL[moduloAtual][indicePergunta];
-    document.getElementById('quiz-titulo').innerHTML = `<h3>Desafio ${indicePergunta + 1} de 20</h3>`;
-    document.getElementById('quiz-pergunta').innerHTML = `<p style="font-size:1.3rem"><strong>${dados.pergunta}</strong></p>`;
-    const containerAlt = document.getElementById('quiz-alternativas');
-    containerAlt.innerHTML = "";
-    dados.alternativas.forEach(alt => {
-        const btn = document.createElement('button');
-        btn.innerText = alt;
-        btn.className = 'botao-alternativa';
-        btn.onclick = () => verificarResposta(alt, dados.resposta);
-        containerAlt.appendChild(btn);
+function mostrarRevisao() {
+    const container = document.getElementById('quiz-container');
+    let htmlRevisao = `<h2>Revisão do Desafio</h2><div class="lista-revisao">`;
+
+    estado.historico.forEach((item, i) => {
+        htmlRevisao += `
+            <div class="item-revisao" style="border-bottom: 1px solid #ccc; padding: 10px; text-align: left; color: ${item.correto ? 'green' : 'red'}">
+                <p><strong>${i+1}. ${item.pergunta}</strong></p>
+                <p>Sua resposta: ${item.escolhaUsuario} ${item.correto ? '✅' : '❌'}</p>
+                ${!item.correto ? `<p style="color: blue">A correta era: ${item.respostaCorreta}</p>` : ''}
+                <a href="${item.link}" target="_blank">Saber mais (Wikipedia)</a>
+            </div>
+        `;
     });
+
+    htmlRevisao += `</div><br><button onclick="location.reload()">Sair da Revisão</button>`;
+    container.innerHTML = htmlRevisao;
 }
 
-function verificarResposta(escolha, correta) {
-    if (escolha === correta) {
-        alert("Excelente! Você acertou! 🌟");
-        aluno.acertos++;
+// ==========================================
+// LÓGICA DO QUIZ (PARTE QUE FAZ FUNCIONAR)
+// ==========================================
+
+let estado = {
+    categoriaAtual: null,
+    indiceAtual: 0,
+    pontuacao: 0,
+    mostrandoAula: true
+};
+
+function iniciarModulo(categoria) {
+    estado.categoriaAtual = categoria;
+    estado.indiceAtual = 0;
+    estado.pontuacao = 0;
+    estado.mostrandoAula = true;
+
+    document.getElementById('selecao-categoria').classList.add('hidden');
+    document.getElementById('quiz-container').classList.remove('hidden');
+    renderizarEtapa();
+}
+
+function renderizarEtapa() {
+    const perguntaData = CONTEUDO_GERAL[estado.categoriaAtual][estado.indiceAtual];
+    const container = document.getElementById('quiz-container');
+
+    if (estado.mostrandoAula) {
+        // Renderiza a aula
+        container.innerHTML = `
+            <h2>${perguntaData.titulo}</h2>
+            <img src="${perguntaData.imagem}" alt="Imagem da aula" class="img-aula">
+            <p class="texto-aula">${perguntaData.texto_aula}</p>
+            <button onclick="estado.mostrandoAula = false; renderizarEtapa();">Entendi! Ir para o desafio</button>
+        `;
     } else {
-        alert("Quase lá! A resposta correta era: " + correta);
+        // Renderiza o quiz
+        container.innerHTML = `
+            <h3>DESAFIO: ${perguntaData.pergunta}</h3>
+            <div class="alternativas">
+                ${perguntaData.alternativas.map(alt => `
+                    <button class="btn-alt" onclick="verificarResposta('${alt}')">${alt}</button>
+                `).join('')}
+            </div>
+        `;
     }
-    indicePergunta++;
-    if (indicePergunta < 20) { mostrarAula(); }
-    else { finalizar(); }
 }
 
-function finalizar() {
-    document.getElementById('conteudo-quiz').style.display = 'none';
-    document.getElementById('tela-final').style.display = 'block';
-    document.getElementById('resultado-final').innerText = `Incrível, ${aluno.nome}! Você acertou ${aluno.acertos} de 20 questões!`;
+function verificarResposta(escolha) {
+    const perguntaData = CONTEUDO_GERAL[estado.categoriaAtual][estado.indiceAtual];
+    if (escolha === perguntaData.resposta) {
+        alert("Correto! Muito bem.");
+        estado.pontuacao++;
+    } else {
+        alert("Ops, não foi dessa vez! A resposta correta era: " + perguntaData.resposta);
+    }
 
-    // Salvar Relatório Simples no Navegador
-    const historico = JSON.parse(localStorage.getItem('relatorio_extensao') || "[]");
-    historico.push({...aluno, data: new Date().toLocaleString(), modulo: moduloAtual});
-    localStorage.setItem('relatorio_extensao', JSON.stringify(historico));
+    estado.indiceAtual++;
+    estado.mostrandoAula = true;
+
+    if (estado.indiceAtual < CONTEUDO_GERAL[estado.categoriaAtual].length) {
+        renderizarEtapa();
+    } else {
+        finalizarModulo();
+    }
 }
 
-function voltarAoMenu() {
-    document.getElementById('tela-final').style.display = 'none';
-    document.getElementById('menu-modulos').style.display = 'block';
+function finalizarModulo() {
+    const total = CONTEUDO_GERAL[estado.categoriaAtual].length;
+    document.getElementById('quiz-container').innerHTML = `
+        <h2>Módulo Concluído!</h2>
+        <p>Você acertou ${estado.pontuacao} de ${total} perguntas.</p>
+        <button onclick="location.reload()">Voltar ao Início</button>
+    `;
 }
