@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Módulo de Letramento Digital</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🎮 Módulo de Informática</h1>
+        <p>Aprenda tecnologia e conquiste o mundo!</p>
+    </header>
+
+    <main>
+        <section id="tela-identificacao">
+            <div class="card">
+                <h2>Olá! Quem vai aprender hoje?</h2>
+                <div class="formulario">
+                    <input type="text" id="nome-aluno" placeholder="Seu nome completo">
+                    <input type="text" id="escola-aluno" placeholder="Nome da sua escola">
+                    <input type="number" id="idade-aluno" placeholder="Sua idade">
+                    <button class="botao-principal" onclick="salvarEIniciar()">Começar Diversão!</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu-modulos" style="display: none;">
+            <h2>Escolha um desafio:</h2>
+            <div class="botoes-container">
+                <button class="botao-modulo" onclick="iniciarModulo('hardware')">🔌 Hardware</button>
+                <button class="botao-modulo" onclick="iniciarModulo('atalhos')">⌨️ Atalhos</button>
+                <button class="botao-modulo" onclick="iniciarModulo('bits')">🔢 Bits e Lógica</button>
+            </div>
+        </section>
+
+        <section id="tela-aula" style="display: none;">
+          <div class="card">
+            <div id="imagem-aula-container"></div>
+            <div id="conteudo-aula"></div>
+            <button class="botao-principal" onclick="mostrarQuiz()">Entendi, vamos ao Quiz!</button>
+          </div>
+        </section>
+
+        <section id="conteudo-quiz" style="display: none;">
+            <div id="quiz-titulo"></div>
+            <div id="quiz-pergunta"></div>
+            <div id="quiz-alternativas" class="botoes-coluna"></div>
+        </section>
+
+        <section id="tela-final" style="display: none;">
+            <div class="card">
+                <h2 id="resultado-final"></h2>
+                <p class="agradecimento">Obrigado por usar nosso site! Você mostrou que é capaz de grandes coisas.</p>
+
+                <div class="texto-motivacional">
+                    <h3>🚀 O seu futuro na Tecnologia</h3>
+                    <p>O mundo da computação é cheio de oportunidades! Sabia que quem trabalha com isso pode:</p>
+                    <ul>
+                        <li>Trabalhar de casa (Home Office) para empresas de qualquer lugar do mundo.</li>
+                        <li>Ter excelentes salários e muitas vagas de emprego.</li>
+                        <li>Criar jogos, aplicativos e soluções para ajudar o planeta.</li>
+                    </ul>
+                    <p>Existem cursos gratuitos na internet (como no YouTube e plataformas como o MEC) para você começar!</p>
+                </div>
+
+                <blockquote class="frase-famosa">
+                    "A educação é a arma mais poderosa que você pode usar para mudar o mundo." <br>
+                    <strong>— Nelson Mandela</strong>
+                </blockquote>
+
+                <div class="compartilhar">
+                    <p>Gostou? Compartilhe com um amigo! Basta copiar o link na barra de endereços do navegador e mandar para ele.</p>
+                </div>
+
+                <button class="botao-principal" onclick="voltarAoMenu()">Jogar Outro Módulo</button>
+            </div>
+        </section>
+    </main>
+
+<footer>
+    <div class="footer-content">
+        <p>&copy; 2026 - Desenvolvido por <strong>Fernando Fernandes Leite de Oliveira</strong></p>
+        <p>Estudante de Ciência da Computação | Uninter</p>
+        <div class="redes-sociais">
+            <a href="https://www.linkedin.com/in/fernando-fernandes-0144b4382/" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="20"> Conecte-se comigo
+            </a>
+        </div>
+    </div>
+</footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
