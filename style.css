@@ -195,3 +195,16 @@ footer {
     margin: 25px 0;
     border-left: 10px solid #28a745;
 }
+
+.lista-revisao {
+    max-height: 400px;
+    overflow-y: auto; /* Cria uma barrinha de rolagem se a lista for longa */
+    background: #f9f9f9;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.item-revisao {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
